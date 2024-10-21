@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" sizes="any" />
+
+  <!---------font------------>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap" rel="stylesheet" />
+  <!---------font------------>
+  <link rel="stylesheet" href="./scr/styles/style.css" />
+  <title>Responsive Web Developer Starter - devchallenges.io</title>
+</head>
+
+<body>
+  <header class="inter_head700">
+    <div class="container_header">
+      <div class="container_header_item_left">
+        <h2>Checkout</h2>
+      </div>
+      <div class="container_header_rigth">
+        <p>3 items</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section_up">
+      <section class="product_container">
+        <div class="separate_container">
+          <div class="separate_container_inside">
+            <div class="img_container">
+              <img src="./assets/img/Gold.png" alt="icon items">
+            </div>
+
+            <div class="info_container">
+              <div>
+                <p class="inter_body600 p_up">iPhone 12 Pro</p>
+                <p class="inter_body500 gray_color">Golden</p>
+              </div>
+              <div>
+                <p class="inter_body400 gray_color">x 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="valor_container">
+            <p class="inter_body600">$999.00</p>
+            <p class="inter_body400 gray_color">x</p>
+          </div>
+        </div>
+      </section>
+      <section class="product_container">
+        <div class="separate_container">
+          <div class="separate_container_inside">
+            <div class="img_container">
+              <img src="./assets/img/Blue.png" alt="icon items">
+            </div class="sepa">
+
+            <div class="info_container">
+              <div>
+                <p class="inter_body600 p_up">Apple Watch</p>
+                <p class="inter_body500 gray_color">Blue</p>
+              </div>
+              <div>
+                <p class="inter_body400 gray_color">x 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="valor_container">
+            <p class="inter_body600">$399.00</p>
+            <p class="inter_body400 gray_color">x</p>
+          </div>
+        </div>
+      </section>
+      <section class="product_container">
+        <div class="separate_container">
+
+          <div class="separate_container_inside">
+            <div class="img_container">
+              <img src="./assets/img/iMac=Front 1.png" alt="icon items">
+            </div class="sepa">
+
+            <div class="info_container">
+              <div>
+                <p class="inter_body600 p_up">iMac</p>
+                <p class="inter_body500 gray_color">Green</p>
+              </div>
+              <div>
+                <p class="inter_body400 gray_color">x 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="valor_container">
+            <p class="inter_body600">$1199.00</p>
+            <p class="inter_body400 gray_color">x</p>
+          </div>
+        </div>
+      </section>
+      <hr style="border: 1px solid var(--gray2);margin-bottom: 20px;">
+      <section>
+        <div class="input_button_container">
+          <input type="text" placeholder="Enter coupon code" class="input_coupon  ">
+          <button class="inter_body400">Apply Coupon</button>
+        </div>
+        <div class="info_contairner">
+          <div>
+            <div class="info_group_container inter_body500 gray_color">
+              <p>Sub total</p>
+              <p>$2597.00</p>
+            </div>
+
+            <div class="info_group_container inter_body500 gray_color">
+              <p>Tax</p>
+              <p>$623.28</p>
+            </div>
+
+            <div class="info_group_container inter_body600">
+              <p>Total</p>
+              <p>$3220.28</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section_donw">
+      <h3 class="inter_body600">Contact Information</h3>
+      <form class="form_container">
+        <label for="name" class="inter_body600_small gray_color">First & Last name</label>
+        <input id="name" type="text" placeholder="First & Last name">
+        <label for="email" class="inter_body600_small gray_color">Email Address</label>
+        <input id="email" type="email" placeholder="Email Address">
+        <div class="section_donw_info">
+          <div class="section_donw_info_section_container">
+            <div class="section_donw_info_section">
+              <label for="miSelect" class="inter_body600_small gray_color">Country</label>
+              <select id="miSelect" class="inter_body600_small" name="opciones" style="color: var(--black);">
+                <option value="Finland">Finland</option>
+                <option value="EEUU">EEUU</option>
+                <option value="España">España</option>
+                <option value="Cuba">Cuba</option>
+              </select>
+            </div>
+            <div class="section_donw_info_section">
+              <label for="postal" class="inter_body600_small gray_color">Postal Code</label>
+              <input id="postal" type="text" placeholder="00270">
+            </div>
+          </div>
+        </div>
+        <button type="submit">Continue</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
